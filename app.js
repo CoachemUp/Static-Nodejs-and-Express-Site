@@ -22,7 +22,7 @@ app.set('view engine', 'pug');
 =========================== */
 //INDEX(HOME) PAGE
 app.get('/', (req, res) => {
-    res.render('index', {projects});
+    res.render('index', { projects });
 });
 //ABOUT PAGE 
 app.get('/about', (req, res) => {
@@ -31,7 +31,7 @@ app.get('/about', (req, res) => {
 //PROJECT PAGE
 app.get('/project/:id', (req, res) => {
     const { id } = req.params;
-    res.render('project', { projects: projects[id] })
+    res.render('project', { projects: projects[id] });
 });
 
 
@@ -61,6 +61,6 @@ app.use((err, req, res, next) => {
 //VERIFYING THE APP IS RUNNING
 app.listen(3000, () => {
     console.log('The application is running on localhost:3000!');
-})
+});
 
 
