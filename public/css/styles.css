@@ -82,7 +82,7 @@ a {
   width: 100%;
   max-width: 1200px;
   padding: 5px 50px 30px;
-  background: #fefefe;
+  background: #b5b4b4;
   border-bottom: 1px solid #eaeaea;
 }
 
@@ -254,7 +254,9 @@ nav a span {
 .cell a {
   width: 100%;
 }
-
+.cell h5 {
+  color: blue;
+}
 .cell img {
   width: 100%;
   min-width: 100px;

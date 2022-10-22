@@ -8,14 +8,15 @@ block content
     h1 Hey, Potential Employers
 
     //- Replace with a description for your portfolio, what this project is, it's purpose, what it's supposed to accomplish, etc. 
-    p Portfolio description
+    p 
+      i Portfolio description
 
-    h3 
-      i Treehouse Full Stack JavaScript Projects
+    
   article.portfolio-project-thumbs
     .projects-box.box.grid
-        each project in projects
-          .cell
-            a(href=`/project/${project.id}`)
-              img.thumbnail(src=`${project.image_urls[0]}`, alt=project.project_name)
-              h5= project.project_name
+      
+      each project in projects
+        .cell
+          a(href=`/project/${project.id}`)
+            img.thumbnail(src=`${project.image_urls[0]}`, alt=project.project_name)
+            h5= project.project_name

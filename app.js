@@ -9,7 +9,6 @@ const { data } = require('./data.json');
 const { projects } = data;
 
 
-
 //TELLS EXPRESS TO USE PROVIDED STYLESHEETS
 app.use('/static', express.static('public'));
 
