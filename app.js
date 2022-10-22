@@ -5,7 +5,7 @@ const express = require('express');
 //INSTANTIATE EXPRESS APP
 const app = express();
 
-const { data } = require('./data/projects.json');
+const { data } = require('./data.json');
 const { projects } = data;
 
 

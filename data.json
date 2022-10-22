@@ -1,0 +1,96 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "project_name": "Random Quote Generator",
+            "description": "For this project, I created an app that displays random famous quotes each time a button is clicked. I had to build an array of quote objects to store the quotes and then create functions to display random quotes from the array and then print them to the screen. For added visual I created a function to change the background color of the quote box and also gave them a timer to auto change every five seconds.",
+            "technologies": [
+                "JavaScript",
+                "API",
+                "JSON"
+            ],
+            "live_link": "https://coachemup.github.io/Random-Quote-Generator/",
+            "github_link": "https://github.com/CoachemUp/Random-Quote-Generator",
+            "image_urls": [
+                "/static/images/project_1_1.png",
+                "/static/images/project_1_2.png"
+            ]
+        },
+        {
+            "id": 1,
+            "project_name": "Data Pagination and Filtering",
+            "description": "In this project, I used a common web development technique known as “pagination” to enhance the usability of a web page. I started with a file that contains information for 42 students, including name, email, and picture. I had to use JavaScript to display the first nine students on the page. Then I added navigation, also known as pagination buttons, that the user can click to display different pages of students. The application had to work with a list of any number of students, not just with the supplied array of 42 students. The solution needed to be flexible enough to handle arrays of student data of various lengths.",
+            "technologies": [
+                "JavaScript",
+                "Pagination"
+            ],
+            "live_link": "https://coachemup.github.io/Data-Pagination-and-Filtering/",
+            "github_link": "https://github.com/CoachemUp/Data-Pagination-and-Filtering",
+            "image_urls": [
+                "/static/images/project_2_1.png",
+                "/static/images/project_2_2.png"
+            ]
+        },
+        {
+            "id": 2,
+            "project_name": "Interactive Form",
+            "description": "In this project, I used JavaScript to enhance an interactive registration form for a fictional Full Stack conference. The HTML and CSS files were supplied, I had to add my own JavaScript to make the form more user-friendly by:--Adding customized and conditional behavior and interactivity--Validating user input and providing helpful error messages when the user enters invalid information into the form fields.",
+            "technologies": [
+                "JavaScript",
+                "Form Validation"
+            ],
+            "live_link": "https://coachemup.github.io/Interactive-Form/",
+            "github_link": "https://github.com/CoachemUp/Interactive-Form",
+            "image_urls": [
+                "/static/images/project_3_1.png",
+                "/static/images/project_3_2.png"
+            ]
+        },
+        {
+            "id": 3,
+            "project_name": "OOP Game Show App",
+            "description": "This project was created to demonstrate foundational concepts in Javascript OOP and DOM manipulation with the use of Classes and Methods. In this project we created a browser-based, word guessing game: Phrase Hunter. Using JavaScript and OOP, a random selected hidden phrase is displayed and a player tries to guess the phrase by clicking letters on an onscreen keyboard. Click Start Game button to display a gameboard with a random phrase. Click the on-screen keyboard to guess a letter in the phrase. If you you choose an incorrect letter, you will lose a heart/life. You have 5 chances to miss until you lose the game. After the game is over, click Start Game button to play a new game.",
+            "technologies": [
+                "JavaScript",
+                "JSON"
+            ],
+            "live_link": "https://coachemup.github.io/OOP-Game-Show-App/",
+            "github_link": "https://github.com/CoachemUp/OOP-Game-Show-App",
+            "image_urls": [
+                "/static/images/project_4_1.png",
+                "/static/images/project_4_2.png"
+            ]
+        },
+        {
+            "id": 4,
+            "project_name": "Public API Requests",
+            "description": "For this project, I built an app for a fictional company called Awesome Startup, a distributed company with remote employees working all over the world. They need a smart way for employees to share contact information with each other. I used the Random User Generator API (https://randomuser.me/) to grab information for 12 random “employees,” and used that data to build a prototype for an Awesome Startup employee directory. I requested a JSON object from the API and parse the data so that 12 employees are listed in a grid with their thumbnail image, full name, email, and location. Clicking the employees image or name will open a modal window with more detailed information, such as the employees birthday and address. Frameworks, libraries or plugins were not used. This was all custom JS to create the necessary functionality for this project. This project will demonstrate working with public APIs, making API requests, and asynchronously handling the data that will be returned from your requests and displayed in an app. A search feature has been added so that students can be filtered by name.",
+            "technologies": [
+                "JavaScript",
+                "API",
+                "JSON"
+            ],
+            "live_link": "https://coachemup.github.io/Public-API-Requests/",
+            "github_link": "https://github.com/CoachemUp/Public-API-Requests",
+            "image_urls": [
+                "/static/images/project_5_1.png",
+                "/static/images/project_5_2.png"
+            ]
+        },
+        {
+            "id": 5,
+            "project_name": "TreeHouse FEWD Capstone Project",
+            "description": "",
+            "technologies": [
+                "JavaScript",
+                "Bootstrap"
+            ],
+            "live_link": "https://coachemup.github.io/Capstone-Portfolio/",
+            "github_link": "https://github.com/CoachemUp/Capstone-Portfolio",
+            "image_urls": [
+                "/static/images/project_6_1.png",
+                "/static/images/project_6_2.png"
+            ]
+        }
+    ]
+}
