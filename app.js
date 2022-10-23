@@ -35,7 +35,10 @@ app.get("/project/:id", (req, res) => {
             ERROR HANDLERS
 =========================== */
 //PAGE NOT FOUND ERROR 404 TO CATCH UNDEFINED OR NON-EXISTENT ROUTE REQUESTS
-
+app.use((req, res, next) => {
+  res.status(404).render("page-not-found");
+  console.log("Sorry but the page you requested is not found");
+});
 
 //GLOBAL ERROR HANDLER(https://teamtreehouse.com/library/practice-error-handling-in-express)
 app.use((err, req, res, next) => {
@@ -43,8 +46,8 @@ app.use((err, req, res, next) => {
     console.log("Global error handler called", err);
   }
   if (err.status === 404) {
-    res.status(404).render("page-not-found", { err });
-    console.log("Sorry but the page you requested is not found");
+    res.status(404).render("error", { err });
+    
   } else {
     err.message =
       err.message || `Oops! It looks like something went wrong on the server.`;
