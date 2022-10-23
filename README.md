@@ -16,6 +16,7 @@ I used Node.js and Express to:
     --Set up a server to serve the project
 
 3 design customizations
+
     --changed headings to italicized
     --changed .box background to gray
     --changed font color for project names
